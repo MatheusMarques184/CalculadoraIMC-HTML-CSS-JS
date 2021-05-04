@@ -29,10 +29,6 @@ form.addEventListener('submit', function(e) {
         resultado('Obesidade grau 3', true);
     }
 });
-//function getImc(peso, altura){
-    //const imc= peso/altura ** 2;
-    //return imc.toFixed(2);
-//};
 function resultado(res, isValid){
     const resultado = document.querySelector(".resultado")
     resultado.innerHTML = '';
